@@ -1,46 +1,40 @@
-# ±ê×¼C++ÊýÑ§¼ÆËãÆ÷³ÌÐò
+# æ ‡å‡†C++æ•°å­¦è®¡ç®—å™¨ç¨‹åº
 
-### ³ÌÐò¹²¼Æ277ÐÐ´úÂë£¬ÊÇ×î¼ò¶Ì¡¢ÍêÕûµÄ´óÊý¼ÆËãÆ÷³ÌÐò¡£
-* ÎÒµÄÁªÏµ·½Ê½£º
-* QQ£º13387073000
-* Email£ºlhjok@live.cn
-* ²©¿ÍµØÖ·£º[»ª¾üµÄ²©¿Í](http://gogae.org/)
+### ç¨‹åºå®žçŽ°çš„åŠŸèƒ½ä¸Žç‰¹å¾ï¼š
+è¯¥ç¨‹åºæ”¯æŒå››åˆ™æ··åˆè¿ç®—ï¼Œæ— é™è¡¨è¾¾å¼é•¿åº¦ï¼Œæ”¯æŒï¼ˆ2560ä½ï¼‰è¶…å¤§æ•°è¿ç®—ã€æ±‚æ¨¡è¿ç®—ã€ä¹˜æ–¹è¿ç®—ã€å¼€æ–¹è¿ç®—ç­‰å®žç”¨åŠŸèƒ½ã€‚
 
-### ³ÌÐòÊµÏÖµÄ¹¦ÄÜÓëÌØÕ÷£º
-¸Ã³ÌÐòÖ§³ÖËÄÔò»ìºÏÔËËã£¬ÎÞÏÞ±í´ïÊ½³¤¶È£¬Ö§³Ö£¨2560Î»£©³¬´óÊýÔËËã¡¢ÇóÄ£ÔËËã¡¢³Ë·½ÔËËã¡¢¿ª·½ÔËËãµÈÊµÓÃ¹¦ÄÜ¡£
-
-Ö§³ÖËÄÔò»ìºÏÔËËã£¨Àý£©£º¡¾ '^'Îª³Ë·½ÔËËã·û . '%'ÎªÇóÄ£ÔËËã·û ¡¿
+æ”¯æŒå››åˆ™æ··åˆè¿ç®—ï¼ˆä¾‹ï¼‰ï¼šã€ '^'ä¸ºä¹˜æ–¹è¿ç®—ç¬¦ . '%'ä¸ºæ±‚æ¨¡è¿ç®—ç¬¦ ã€‘
 
 `10-3*(2/1-(6*2+(21+3/5)*8/3)*-2)+8*2^2%3`
 
-Ö§³Öº¯Êý»ìºÏÔËËã£¨Àý£©£º¡¾ "A=ABS" . "S=SQRT" . "P=PI"£¨'P'±»Ö±½ÓÊÓÎªÊý×Ö£©¡¿
+æ”¯æŒå‡½æ•°æ··åˆè¿ç®—ï¼ˆä¾‹ï¼‰ï¼šã€ "A=ABS" . "S=SQRT" . "P=PI"ï¼ˆ'P'è¢«ç›´æŽ¥è§†ä¸ºæ•°å­—ï¼‰ã€‘
 
 `10*(2/1-(6*2+(21.5A+3/5)-8*P/3)*23.5S)+8*2^2%3`
 
-º¯Êý¶ÔÓ¦±ê¼Ç·û£¨±ê¼Ç·ûÎª´óÐ´£©£º
+å‡½æ•°å¯¹åº”æ ‡è®°ç¬¦ï¼ˆæ ‡è®°ç¬¦ä¸ºå¤§å†™ï¼‰ï¼š
 
-A=¡¾ ABS ¾ø¶ÔÖµ ¡¿ S=¡¾ SQRT Æ½·½¸ù ¡¿ P=¡¾ PI Ô²ÖÜÂÊ ¡¿
+A=ã€ ABS ç»å¯¹å€¼ ã€‘ S=ã€ SQRT å¹³æ–¹æ ¹ ã€‘ P=ã€ PI åœ†å‘¨çŽ‡ ã€‘
 
-### ³ÌÐòÊ¹ÓÃÁËGMP´óÊýÔËËã¿â£º
-GMPÊÇÒ»¸ö¿ªÔ´µÄÈÎÒâ¾«¶ÈÔËËã¿â£¬Ò²ÊÇGNUÏîÄ¿µÄÒ»²¿·Ö£¬ËüµÄÄ¿±êÊÇ³ÉÎª×î¿ìµÄ´óÊýÔËËã¿â¡£
+### ç¨‹åºä½¿ç”¨äº†GMPå¤§æ•°è¿ç®—åº“ï¼š
+GMPæ˜¯ä¸€ä¸ªå¼€æºçš„ä»»æ„ç²¾åº¦è¿ç®—åº“ï¼Œä¹Ÿæ˜¯GNUé¡¹ç›®çš„ä¸€éƒ¨åˆ†ï¼Œå®ƒçš„ç›®æ ‡æ˜¯æˆä¸ºæœ€å¿«çš„å¤§æ•°è¿ç®—åº“ã€‚
 
-### °²×°MinGW-MSYS¿ª·¢»·¾³£º
-1¡¢°²×°MinGW¿ª·¢Ì×¼þ£¬¿ÉÖ±½Ó°²×°QT¹ÙÍøÌá¹©µÄÈí¼þ°ü¡¾[QT-MinGW](http://www.qt.io/)¡¿
+### å®‰è£…MinGW-MSYSå¼€å‘çŽ¯å¢ƒï¼š
+1ã€å®‰è£…MinGWå¼€å‘å¥—ä»¶ï¼Œå¯ç›´æŽ¥å®‰è£…QTå®˜ç½‘æä¾›çš„è½¯ä»¶åŒ…ã€[QT-MinGW](http://www.qt.io/)ã€‘
 
-2¡¢°²×°MSYS¸¨Öú»·¾³£¬Ö±½ÓÔËÐÐ°²×°[MSYS](http://www.mingw.org/)¿ÉÖ´ÐÐÎÄ¼þ¼´¿É£º
+2ã€å®‰è£…MSYSè¾…åŠ©çŽ¯å¢ƒï¼Œç›´æŽ¥è¿è¡Œå®‰è£…[MSYS](http://www.mingw.org/)å¯æ‰§è¡Œæ–‡ä»¶å³å¯ï¼š
 
-### ±àÒëGMP¿âÎÄ¼þ£º
-1¡¢ÏÂÔØ[GMP](https://gmplib.org/)¿âÎÄ¼þ£¬½«Æä½âÑ¹µ½CÅÌ¸ùÄ¿Â¼ÏÂ£º
+### ç¼–è¯‘GMPåº“æ–‡ä»¶ï¼š
+1ã€ä¸‹è½½[GMP](https://gmplib.org/)åº“æ–‡ä»¶ï¼Œå°†å…¶è§£åŽ‹åˆ°Cç›˜æ ¹ç›®å½•ä¸‹ï¼š
 
-2¡¢±à¼­MSYSÅäÖÃÎÄ¼þ£º`C:/msys/1.0/etc/fstab.sample`
+2ã€ç¼–è¾‘MSYSé…ç½®æ–‡ä»¶ï¼š`C:/msys/1.0/etc/fstab.sample`
 
 `C:/gmp`
 
-3¡¢ÔËÐÐMSYS½øÈë»·¾³£º
+3ã€è¿è¡ŒMSYSè¿›å…¥çŽ¯å¢ƒï¼š
 
 `cd /c/gmp`
 
-4¡¢ÒÀ´ÎÖ´ÐÐÏÂÃæÃüÁî£º
+4ã€ä¾æ¬¡æ‰§è¡Œä¸‹é¢å‘½ä»¤ï¼š
 
 `./configure --enable-cxx`
 
@@ -50,7 +44,7 @@ GMPÊÇÒ»¸ö¿ªÔ´µÄÈÎÒâ¾«¶ÈÔËËã¿â£¬Ò²ÊÇGNUÏîÄ¿µÄÒ»²¿·Ö£¬ËüµÄÄ¿±êÊÇ³ÉÎª×î¿ìµÄ´óÊýÔËËã
 
 `make install`
 
-5¡¢ÉèÖÃGCC»·¾³±äÁ¿£º
+5ã€è®¾ç½®GCCçŽ¯å¢ƒå˜é‡ï¼š
 
 `C_INCLUDEDE_PATH= C:\msys\1.0\local\include`
 
@@ -58,17 +52,17 @@ GMPÊÇÒ»¸ö¿ªÔ´µÄÈÎÒâ¾«¶ÈÔËËã¿â£¬Ò²ÊÇGNUÏîÄ¿µÄÒ»²¿·Ö£¬ËüµÄÄ¿±êÊÇ³ÉÎª×î¿ìµÄ´óÊýÔËËã
 
 `LIBRARY_PATH= C:\msys\1.0\local\lib`
 
-### ¿ªÔ´Èí¼þGCC±àÒë»·¾³ÏÂÉú³É¿ÉÖ´ÐÐÎÄ¼þ£º
-1¡¢ÐÂ½¨Ò»¸öÍ¼±ê("icon.rc")ÎÄ¼þ£º
+### å¼€æºè½¯ä»¶GCCç¼–è¯‘çŽ¯å¢ƒä¸‹ç”Ÿæˆå¯æ‰§è¡Œæ–‡ä»¶ï¼š
+1ã€æ–°å»ºä¸€ä¸ªå›¾æ ‡("icon.rc")æ–‡ä»¶ï¼š
     
 `1 ICON "ICON.ico"`
     
-2¡¢Ê¹ÓÃ"windres"ÃüÁîÀ´½«.rcÎÄ¼þ±àÒë³ÉÄ¿±êÎÄ¼þ£º
+2ã€ä½¿ç”¨"windres"å‘½ä»¤æ¥å°†.rcæ–‡ä»¶ç¼–è¯‘æˆç›®æ ‡æ–‡ä»¶ï¼š
     
 `windres icon.rc icon.o`
     
-3¡¢³ÉÉú´øÍ¼±êµÄ¿ÉÖ´ÐÐ³ÌÐò£º
+3ã€æˆç”Ÿå¸¦å›¾æ ‡çš„å¯æ‰§è¡Œç¨‹åºï¼š
     
 `g++ -Wall -o Calculator -static Calculator.cpp icon.o -lgmpxx -lgmp`
 
-4¡¢×¢£ºGMP´óÊýÔËËã¿âÎÒÒÑ¾­±àÒëºÃÁË£¬ÓÐÐËÈ¤µÄÍ¬Ñ§¿ÉÒÔÖ±½ÓÊ¹ÓÃ£¨ÒÑ¾­¸½ÉÏ£©¡£
+4ã€æ³¨ï¼šGMPå¤§æ•°è¿ç®—åº“æˆ‘å·²ç»ç¼–è¯‘å¥½äº†ï¼Œæœ‰å…´è¶£çš„åŒå­¦å¯ä»¥ç›´æŽ¥ä½¿ç”¨ï¼ˆå·²ç»é™„ä¸Šï¼‰ã€‚
